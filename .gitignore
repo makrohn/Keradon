@@ -8,3 +8,6 @@ build/
 # ignore also vim swap files
 .*.sw*
 flare.desktop
+keradon
+keradon.exe
+keradon.desktop
