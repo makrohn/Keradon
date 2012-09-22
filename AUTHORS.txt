@@ -1,0 +1,9 @@
+The following licenses apply to the assets of this game, as indicated:
+http://creativecommons.org/licenses/by/3.0/
+
+The following assets were used in making this game:
+
+HorrorPen on opengameart.org
+============================
+CC-BY 3.0
+mods/keradon/title_theme.ogg, originally titled Winds of Stories.
