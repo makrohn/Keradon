@@ -1,9 +1,20 @@
-The following licenses apply to the assets of this game, as indicated:
-http://creativecommons.org/licenses/by/3.0/
-
 The following assets were used in making this game:
 
 HorrorPen on opengameart.org
 ============================
-CC-BY 3.0
+CC-BY 3.0 http://creativecommons.org/licenses/by/3.0/
 mods/keradon/title_theme.ogg, originally titled Winds of Stories.
+
+Johann C
+========
+Work adapted into 
+mods/keradon/images/icons/icons_large.png
+mods/keradon/images/icons/icons_small.png
+
+Buch from opengameart.org
+=========================
+UI elements
+
+Johannes Sjölund
+================
+His work was modified into skeleton.png

@@ -1,0 +1,6 @@
+# option=base,head,portrait
+# base is the folder in /images/avatar
+# head is the png in /images/avatar/[base]
+# portrait is the png in /images/portraits
+
+option=undead,skeletonsdonthavehair,skeleton
