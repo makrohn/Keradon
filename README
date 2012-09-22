@@ -18,6 +18,8 @@ Flare's default mod (includes engine translations) is released under GNU GPL v3 
 
 The default mod contains the Liberation Sans font which is released under the SIL Open Font License, Version 1.1.
 
+The core mod, as well as the tiled folder, is released under the GNU GPL v3 and CC-BY-SA 3.0.  Later versions are permitted.
+
 LINKS
 =====
 
@@ -53,10 +55,6 @@ pacman -S --asdeps sdl sdl_image sdl_mixer libogg libvorbis hicolor-icon-theme p
 Installing dependencies on openSUSE:
 sudo zypper in make cmake gcc gcc-c++ libSDL-devel libSDL_image-devel libSDL_mixer-devel libSDL_ttf-devel python
 
-  There is also a flare build at the openSUSE games repo:
-  http://software.opensuse.org/download.html?project=games&package=flare
-
-
 BUILDING WITH CMAKE
 ===================
 
@@ -81,26 +79,26 @@ or, BUILDING WITH g++
 If you prefer building directly with C++, the command will be something like this.
 
 Windows plus MinGW (depending on where your SDL dev headers are)
-g++ -I C:\MinGW\include\SDL src\*.cpp src\*.c -o flare.exe -lmingw32 -lSDLmain -lSDL -lSDL_image -lSDL_mixer -lSDL_ttf
+g++ -I C:\MinGW\include\SDL src\*.cpp src\*.c -o keradon.exe -lmingw32 -lSDLmain -lSDL -lSDL_image -lSDL_mixer -lSDL_ttf
 
 Linux (depending on where your SDL includes are)
-g++ -I /usr/include/SDL src/*.cpp src/*.c -o flare -lSDL -lSDL_image -lSDL_mixer -lSDL_ttf
+g++ -I /usr/include/SDL src/*.cpp src/*.c -o keradon -lSDL -lSDL_image -lSDL_mixer -lSDL_ttf
 
 
-RUNNING FLARE
+RUNNING KERADON
 =============
 
-If the program is installing system-wide (i.e., you typed 'make install' and it worked), you can run it just by executing the 'flare' command.
+If the program is installing system-wide (i.e., you typed 'make install' and it worked), you can run it just by executing the 'keradon' command.
 
 If you did not perform the installation step, you should copy back the binary in 'build' to the top directory, and run it from there, like this:
 
-	cp flare ..
+	cp keradon ..
 	cd ..
-	./flare
+	./keradon
 
 Also, in newer versions, the game can be launched from an icon in your main menu in your GUI environment (KDE, GNOME, etc.).
 
-If you're running flare from your operating system's gui file browser (e.g. Windows Explorer or OSX Finder), you'll want to use one of the provided launchers.  This helps the flare executable use its own working directory, so it can see all those data folders.
+If you're running keradon from your operating system's gui file browser (e.g. Windows Explorer or OSX Finder), you'll want to use one of the provided launchers.  This helps the flare executable use its own working directory, so it can see all those data folders.
 
 
 SETTINGS
@@ -108,19 +106,19 @@ SETTINGS
 
 Settings are stored in one of these places:
 
-$XDG_CONFIG_HOME/flare
-$HOME/.config/flare
+$XDG_CONFIG_HOME/keradon
+$HOME/.config/keradon
 ./config
 
-Here you can enable fullscreen, change the game resolution, enable mouse-move, and change keybindings. The settings files are created the first time you run Flare.
+Here you can enable fullscreen, change the game resolution, enable mouse-move, and change keybindings. The settings files are created the first time you run Keradon.
 
 SAVE FILES
 ==========
 
 Save files are stored in one of these places:
 
-$XDG_DATA_HOME/flare
-$HOME/.local/share/flare
+$XDG_DATA_HOME/keradon
+$HOME/.local/share/keradon
 ./saves
 
 If permissions are correct, the game is automatically saved when you exit.
